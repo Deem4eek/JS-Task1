@@ -21,7 +21,19 @@
 <script>
   "use strict";
 
-  // Здесь пишем решение, данный комментарий необходимо стереть.
+const a = +prompt('Введите число для сравнения');
+  const b = +prompt('Введите число для сравнения');
+
+  if (a > b) {
+    console.log(a - b);
+  } 
+  else if (a < 0 && b < 0) {
+    console.log(a * b);
+  } 
+  else if (a * b < 0) {
+    console.log(a + b);
+  }
+
 </script>
 </body>
 </html>
